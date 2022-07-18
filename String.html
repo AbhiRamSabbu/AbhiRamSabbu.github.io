@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Examples</title>
+</head>
+<body style="background-image: url('https://img.freepik.com/free-photo/vivid-blurred-colorful-background_58702-2563.jpg?w=2000');
+background-repeat: no-repeat;background-size:cover,100%;">
+         <h1 style="color:red;text-align: center;">Examples</h1>
+        <ul style="color:blue;list-style-type: none;">
+            <li style="float: left;padding:5px"><a href="index.html">Home</a></li>
+            <li style="float: left;padding:5px"><a href="About.html">About</a></li>
+            <li style="padding:5px"><a href="Examples.html">Examples</a></li>
+        </ul>
+        <hr style="border: 5px solid red;"/>
+        <p>The length property returns the length of a string:</p>
+
+<p id="demo"></p>
+
+<script>
+let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+document.getElementById("demo").innerHTML = text.length;
+</script>
+
+<p>The slice() method extract a part of a string
+and returns the extracted parts in a new string:</p>
+
+<p id="demo1"></p>
+
+<script>
+let str1 = "Apple, Banana, Kiwi";
+document.getElementById("demo1").innerHTML = str1.slice(7,13); 
+</script>
+<p>The substring() method extract a part of a string and returns the extracted parts in a new string:</p>
+
+<p id="demo2"></p>
+
+<script>
+let str2 = "Apple, Banana, Kiwi";
+document.getElementById("demo2").innerHTML = str2.substring(7,13);
+</script>
+<p>The substr() method extract a part of a string
+and returns the extracted parts in a new string:</p>
+
+<p id="demo3"></p>
+
+<script>
+let str3 = "Apple, Banana, Kiwi";
+document.getElementById("demo3").innerHTML = str3.substr(7,6);
+</script>
+    <button><a href="date.html">previous</a></button>
+    <button style="align-content: right;"><a href="">next</a></button>
+</body>
+</html>
